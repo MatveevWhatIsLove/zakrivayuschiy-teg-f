@@ -11,6 +11,7 @@
     --font-weight-title: var(--font-weight-bold);
     --font-weight-text: var(--font-weight-reg);
     --bg-image: var(--grad-light);
+    --color-text-button: var(--color-white);
 }
 
 @media (prefers-color-scheme: light){
@@ -20,6 +21,7 @@
         --font-weight-title: var(--font-weight-bold);
         --font-weight-text: var(--font-weight-reg);
         --bg-image: var(--grad-light);
+        --color-text-button: var(--color-white);
     }
 }
 
@@ -30,6 +32,7 @@
     --font-weight-title: var(--font-weight-785);
     --font-weight-text: var(--font-weight-465);
     --bg-image: var(--grad-dark);
+    --color-text-button: var(--color-green);
 }
 
 @media (prefers-color-scheme: dark){
@@ -39,5 +42,6 @@
         --font-weight-title: var(--font-weight-785);
         --font-weight-text: var(--font-weight-465);
         --bg-image: var(--grad-dark);
+        --color-text-button: var(--color-green);
     }
 }

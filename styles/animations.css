@@ -12,6 +12,15 @@
 
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 */
+@keyframes move-arrow {
+    0%{
+      transform: translateX(0);
+    }
+    100%{
+      transform: translateX(4px);
+    }
+  }  
+
 @keyframes like-scale {
     0%{
         scale: 1;
@@ -80,7 +89,7 @@ fill: var(--fill-sparks);
 transition: fill 0.3s 0.06s linear;
 }
 
-.like-icon.is-liked .body {
+.like-icon.is-liked .heart {
 transform-origin: center;
 animation: like-scale 0.3s 0.1s ease-in alternate;
 }
@@ -91,6 +100,6 @@ animation: like-sparks 0.3s 0.3s ease-in alternate;
 }
 
 .is-liked{
-fill: var(--fill-sparks);
+    fill: var(--fill-sparks);
 }
   
